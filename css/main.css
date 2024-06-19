@@ -1,0 +1,604 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*BODY_____________________________________________________________________*/
+body {
+    
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    font-family: "roboto"
+}
+
+
+/*ENCABEZADO ____________________________*/
+
+nav {
+    padding: 2rem;
+    margin: 2rem;
+}
+.nav-link:hover {
+ border-bottom: 1px solid greenyellow;
+ font-weight: bold;
+ color: greenyellow
+
+}
+
+
+
+/*MAIN INICIO___________________________*/
+
+.hero-section {
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+ .nemesis-fest { /*h1 inicio*/
+    text-align: center;
+    color: aliceblue;
+    font-family: "paybAck";
+    text-transform:none;
+    text-decoration: none;
+    font-size: 9rem;
+    font-weight: normal;
+
+    
+ }
+
+/*TEXTOS INICIO_________________________________________*/
+
+
+/*TEXTO 1______*/
+
+.contenedor-sections-inicio{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+
+.contenedor-section1{
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size: cover;
+    color: rgb(212, 3, 3);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid white;
+    box-shadow:2px 5px 15px  rgb(255, 255, 255);
+    margin: 2rem;
+}
+.que-es-nemesisfest{
+    margin: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.texto1{
+ color: white;
+ font-size: medium ;
+ font-family: "roboto";
+ padding-top: 1rem;
+ margin-top: 1rem;
+
+}
+
+.titulotexto1{
+font-family: "roboto";
+text-shadow: 10px 10px 10px 50px white;
+border-bottom:1px dotted white;
+padding-bottom: 10px
+
+}
+
+    
+/*TEXTO 2______*/
+
+.contenedor-section2{
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size: cover;
+    color: rgb(212, 3, 3);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid white;
+    box-shadow:2px 5px 15px rgb(255, 255, 255);
+    margin: 2rem
+}
+
+.un-poco-de-historia{
+    margin: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto2{
+ color: white;
+ font-size: medium ;
+ font-family: "roboto";
+ padding-top: 1rem;
+ margin-top: 1rem;
+}
+
+.titulotexto2{
+font-family: "roboto";
+text-shadow: 10px 10px 10px 50px white;
+border-bottom:1px dotted white;
+padding-bottom: 10px;
+}
+
+/*TEXTO 3______*/
+.contenedor-section3{
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size: cover;
+    color: rgb(212, 3, 3);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid white;
+    box-shadow:2px 5px 15px rgb(255, 255, 255);
+    margin: 2rem
+}
+
+.nuestra-mision{
+    margin: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto3{
+ color: white;
+ font-size: medium ;
+ font-family: "roboto";
+ padding-top: 1rem;
+ margin-top: 1rem;
+}
+
+.titulotexto3{
+font-family: "roboto";
+text-shadow: 10px 10px 10px 50px white;
+border-bottom:1px dotted white;
+padding-bottom: 10px;
+}
+
+/*TEXTO 4______*/
+.contenedor-section4{
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size: cover;
+    color: rgb(212, 3, 3);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid white;
+    box-shadow:2px 5px 15px rgb(255, 255, 255);
+    margin: 2rem
+}
+
+.nemesis-fest__nemesis-crew{
+    margin: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto4{
+ color: white;
+ font-size: medium ;
+ font-family: "roboto";
+ padding-top: 1rem;
+ margin-top: 1rem;
+}
+
+.titulotexto4{
+font-family: "roboto";
+text-shadow: 10px 10px 10px 50px white;
+border-bottom:1px dotted white;
+padding-bottom: 10px
+}
+
+/*TEXTO 5______*/
+
+.contenedor-section5{
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size: cover;
+    color: rgb(212, 3, 3);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid white;
+    box-shadow:2px 5px 15px rgb(255, 255, 255);
+    margin: 2rem
+}
+
+.donde-cuando {
+    margin: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto5{
+ color: rgb(255, 255, 255);
+ font-size: medium ;
+ font-family: "roboto";
+ padding-top: 1rem;
+ margin-top: 1rem;
+}
+
+.titulotexto5{
+font-family: "roboto";
+text-shadow: 10px 10px 10px 50px white;
+border-bottom:1px dotted white;
+padding-bottom: 10px;
+}
+
+
+/*FORMULARIO DE CONTACTO___________________________________________________*/
+
+.contenedor-form{
+   display: flex;
+   margin: 1rem;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#titulo-contacto{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px black ;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+    background-size: cover;
+    border-radius: .8rem;
+    box-shadow: 0px 0px 30px 5px rgb(214, 2, 2);
+    justify-content: center;
+    padding: 2rem;
+
+}
+ 
+form input{
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 1rem;
+    border: none
+}
+form textarea{
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+    font-family: sans-serif;
+    padding: 1rem;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 1rem;
+    border: none
+
+}
+form #enviar{
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    
+}
+/*PIE DE PAGINA__________________________________________________*/
+.footer {
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+    font-family: sans-serif;
+    margin: 1rem;
+    gap: 1rem;
+    
+}
+.menu-redes{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.redes-sociales {
+    display:inline;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+    
+}
+.redes-sociales a{
+    gap: 1rem;
+}
+
+
+.redes-sociales img {
+    width: 100%;
+    max-height: 30px;
+    
+}
+    
+
+/*TICKETS________________________________________________________*/
+#titulo-entradas {
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#entradas {
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+#entradas h1 {
+    color: white;
+    text-align: center;
+}
+
+
+/*EVENTOS____________________________________________________________*/
+
+/*NEMESIS FEST THE SUB____________________________________*/
+.main-eventos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 3rem;
+    gap: 10rem;
+    
+}
+.video-nf-thesub video{
+    height: 60rem;
+    border-radius: 1.5rem;
+    box-shadow:2px 5px 15px  rgb(255, 255, 255);
+    
+}
+.contenedor-nf-thesub {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.nf-thesub{
+    display: flex;
+    text-transform: none;
+    
+}
+.nf-thesub h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+    color: rgb(230, 15, 15);
+}
+
+.nf-thesub h4{
+    padding-bottom: 1rem;
+}
+
+.texto-nf-thesub{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align:start;
+    font-size:large;
+    font-family: "roboto";
+    color: rgb(255, 255, 255)
+}
+.texto-nf-thesub p {
+    margin-top: 1.5rem;
+}
+.texto-nf-thesub h5{
+    padding-top: 2rem;
+           
+} 
+
+.strong {
+    color: red;
+}
+
+/*NEMESIS FEST POKER____________________________*/
+
+
+.contenedor-nf-poker {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.video-nf-poker video{
+    height: 60rem;
+    border-radius: 1.5rem;
+    box-shadow:2px 5px 15px  rgb(255, 255, 255);
+}
+
+.nf-poker{
+    display: flex;
+    text-transform: none;
+    
+}
+.nf-poker h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+    color: rgb(230, 15, 15);
+}
+
+.nf-poker h4{
+    padding-bottom: 1rem;
+}
+
+.texto-nf-poker{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align:start;
+    font-size:large;
+    font-family: "roboto";
+    color: rgb(255, 255, 255)
+}
+.texto-nf-poker p {
+    margin-top: 1.5rem;
+}
+.texto-nf-poker h5{
+    padding-top: 2rem;
+} 
+
+.strong {
+    color: red;
+}
+
+/*NEMESIS CREW____________________________________*/
+.ncrew{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    background-color: rgba(104, 114, 114, 0.26);
+    padding: 1rem
+}
+.texto-ncrew {
+    text-align: justify;
+    font-size:large;
+    font-family: "roboto";
+    color: rgb(255, 255, 255)
+}
+
+.ncrew h2{
+    
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-style: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+    color: rgb(230, 15, 15);
+    margin-bottom: 15px;
+}
+
+.ncrew h5{
+    margin-top: 50px;
+}
+
+
+
+/*GALERIA________________________________________________________*/
+
+#galeriats .col-lg-4 {
+    padding: 20px;
+}
+
+#galeriats img { 
+   width: 100%;   
+}
+#galeriats h1 {
+    color: white;
+}
+#galeriapk .col-lg-4 {
+    padding: 20px;
+}
+
+#galeriapk img{
+    width: 100%
+}
+#galeriapk h1 {
+    color: white;
+}
+
+
+
+/*PROMOS________________________________________________________*/
+.promos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin: 20px;
+    padding-top: 30px;
+}
+.promos img {
+   width: 100%;
+   height: auto;
+   box-shadow:0px 0px 8px rgb(228, 148, 30);
+   border-radius: 12px;
+}
+
+
+
+
+/*MEDIA________________________________________________________*/
+@media(max-width: 1024px){
+    .nemesis-fest {
+        font-size: 7rem;
+    }
+    .video-nf-thesub video {
+        max-height: 45rem;
+     }
+    .video-nf-poker video {
+        max-height: 45rem;
+     }
+}
+
+
+@media (max-width:700px){
+    .contenedor-nf-thesub {
+       display: flex;
+       flex-direction: column;
+    }
+    .video-nf-thesub video {
+       max-height: 40rem;
+    }
+    .contenedor-nf-poker {
+        display: flex;
+        flex-direction: column;
+     }
+     .video-nf-thesub video {
+        max-height: 40rem;
+     }
+
+}
+
+
+@media (max-width:500px){
+    .nemesis-fest {
+        font-size: 5rem;   
+   }
+}
