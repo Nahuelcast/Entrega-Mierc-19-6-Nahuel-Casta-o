@@ -1,0 +1,165 @@
+.main-eventos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 3rem;
+    gap: 10rem;
+    
+    .contenedor-nf-thesub {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        .video-nf-thesub video {
+            height: 60rem;
+            border-radius: 1.5rem;
+            box-shadow:2px 5px 15px  rgb(255, 255, 255);    
+        }
+        .nf-thesub {
+            display: flex;
+            text-transform: none;
+            
+            .texto-nf-thesub {
+                padding-left: 1rem;
+                padding-right: 1rem;
+                text-align:start;
+                font-size:large;
+                font-family: "roboto";
+                color: white;
+                
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+                a:hover {
+                    
+                    font-weight: bold;
+                    color: greenyellow
+                   
+                }
+
+                h2 {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 800;
+                    font-style: bold;
+                    text-transform: uppercase;
+                    text-shadow: 5px 5px 10px black;
+                    color: rgb(230, 15, 15);
+                }       
+                h4 {
+                    padding-bottom: 1rem;
+                }                       
+                p {
+                    margin-top: 1.5rem;
+                }
+                h5 {
+                    padding-top: 2rem;                           
+                }         
+                .strong {
+                    color: red;
+                }
+            }            
+        }   
+    }
+
+    .contenedor-nf-poker {
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        .video-nf-poker video{
+            height: 60rem;
+            border-radius: 1.5rem;
+            box-shadow:2px 5px 15px  rgb(255, 255, 255);
+        }        
+        .nf-poker{
+            display: flex;
+            text-transform: none;
+            
+            .texto-nf-poker{
+                padding-left: 1rem;
+                padding-right: 1rem;
+                text-align:start;
+                font-size:large;
+                font-family: "roboto";
+                color: white;
+                
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+                a:hover {
+                    
+                    font-weight: bold;
+                    color: greenyellow
+                   
+                }
+
+                h2{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 800;
+                    font-style: bold;
+                    text-transform: uppercase;
+                    text-shadow: 5px 5px 10px black;
+                    color: rgb(230, 15, 15);
+                }        
+                h4{
+                    padding-bottom: 1rem;
+                }        
+                
+                p {
+                    margin-top: 1.5rem;
+                }
+                h5{
+                    padding-top: 2rem;
+                }         
+                .strong {
+                    color: red;
+                }  
+            }                  
+        }   
+    }
+
+    .ncrew {
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: space-between;
+        background-color: rgba(104, 114, 114, 0.26);
+        padding: 1rem;
+        
+        p {
+            text-align: justify;
+            font-size:large;
+            font-family: "roboto";
+            color: white;
+        }
+           
+        h2{            
+            font-family: "Roboto", sans-serif;
+            color: white;
+            font-weight: 800;
+            font-style: bold;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 10px black;
+            color: rgb(230, 15, 15);
+            margin-bottom: 15px;
+        }        
+        h5{
+            margin-top: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            
+            font-weight: bold;
+            color: greenyellow
+           
+        }
+    }
+}

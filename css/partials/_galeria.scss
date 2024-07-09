@@ -1,0 +1,28 @@
+#galeriats .col-lg-4 {
+    padding: 20px;
+}
+
+#galeriats img { 
+   width: 100%;   
+   
+}
+#galeriats h1 {
+    color: white;
+}
+#galeriapk .col-lg-4 {
+    padding: 20px;
+}
+
+#galeriapk img{
+    width: 100%
+}
+#galeriapk h2 {
+    color: white;
+}
+.contenedor-img-gal {
+    transition: all .5s;
+}
+
+.contenedor-img-gal:hover {
+    transform: scale(1.1) translateY(-40px);       
+}

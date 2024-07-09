@@ -1,0 +1,168 @@
+
+.contenedor-sections-inicio{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+
+    .contenedor-section1{
+    background-image: url(../multimedia/Imagenes/Fondos/FONDO\ PRINCIPAL.jpg);
+    background-size: cover;
+    color: $secondarycolor;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid $maincolor;
+    box-shadow:2px 5px 15px  $maincolor;
+    margin: 2rem;
+
+    .que-es-nemesisfest{
+        margin: 2rem;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;   
+        }
+        .texto1{
+        color: $maincolor;
+        font-size: medium ;
+        font-family: "roboto";
+        padding-top: 1rem;
+        margin-top: 1rem;
+        }
+        .titulotexto1{
+        font-family: "roboto";
+        text-shadow: 10px 10px 10px 50px $maincolor;
+        border-bottom:1px dotted $maincolor;
+        padding-bottom: 10px
+        }
+    }
+
+    .contenedor-section2{
+        background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+        background-size: cover;
+        color: $secondarycolor;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border: 1px solid $maincolor;
+        box-shadow:2px 5px 15px $maincolor;
+        margin: 2rem;
+    
+        .un-poco-de-historia{
+            margin: 2rem;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }        
+        .texto2{
+         color: $maincolor;
+         font-size: medium ;
+         font-family: "roboto";
+         padding-top: 1rem;
+         margin-top: 1rem;
+        }        
+        .titulotexto2{
+        font-family: "roboto";
+        text-shadow: 10px 10px 10px 50px $maincolor;
+        border-bottom:1px dotted $maincolor;
+        padding-bottom: 10px;
+        }
+    }
+
+    .contenedor-section3{
+        background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+        background-size: cover;
+        color: $secondarycolor;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border: 1px solid $maincolor;
+        box-shadow:2px 5px 15px$maincolor;
+        margin: 2rem;
+
+        .nuestra-mision{
+            margin: 2rem;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }        
+        .texto3{
+         color: $maincolor;
+         font-size: medium ;
+         font-family: "roboto";
+         padding-top: 1rem;
+         margin-top: 1rem;
+        }        
+        .titulotexto3{
+        font-family: "roboto";
+        text-shadow: 10px 10px 10px 50px$maincolor;
+        border-bottom:1px dotted $maincolor;
+        padding-bottom: 10px;
+        }        
+    }
+    
+    .contenedor-section4{
+        background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+        background-size: cover;
+        color: $secondarycolor;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border: 1px solid $maincolor;
+        box-shadow:2px 5px 15px $maincolor;
+        margin: 2rem;
+
+        .nemesis-fest__nemesis-crew{
+            margin: 2rem;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }        
+        .texto4{
+         color: $maincolor;
+         font-size: medium ;
+         font-family: "roboto";
+         padding-top: 1rem;
+         margin-top: 1rem;
+        }        
+        .titulotexto4{
+        font-family: "roboto";
+        text-shadow: 10px 10px 10px 50px $maincolor;
+        border-bottom:1px dotted $maincolor;
+        padding-bottom: 10px;
+        }
+    }
+  
+    .contenedor-section5{
+        background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+        background-size: cover;
+        color: $secondarycolor;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border: 1px solid $maincolor;
+        box-shadow:2px 5px 15px $maincolor;
+        margin: 2rem;
+
+        .donde-cuando {
+            margin: 2rem;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }        
+        .texto5{
+         color: $maincolor;
+         font-size: medium ;
+         font-family: "roboto";
+         padding-top: 1rem;
+         margin-top: 1rem;
+        }        
+        .titulotexto5{
+        font-family: "roboto";
+        text-shadow: 10px 10px 10px 50px $maincolor;
+        border-bottom:1px dotted $maincolor;
+        padding-bottom: 10px;
+        }        
+    }
+ }
+
+ 

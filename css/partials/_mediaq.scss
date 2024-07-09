@@ -1,0 +1,37 @@
+@media(max-width: 1024px){
+    .nemesis-fest {
+        font-size: 7rem;
+    }
+    .video-nf-thesub video {
+        max-height: 45rem;
+     }
+    .video-nf-poker video {
+        max-height: 45rem;
+     }
+}
+
+
+@media (max-width:700px){
+    .contenedor-nf-thesub {
+       display: flex;
+       flex-direction: column;
+    }
+    .video-nf-thesub video {
+       max-height: 35rem;
+    }
+    .contenedor-nf-poker {
+        display: flex;
+        flex-direction: column;
+     }
+     .video-nf-poker video {
+        max-height: 35rem;
+     }
+
+}
+
+
+@media (max-width:600px){
+    .hero-section h1 {
+        font-size: 5rem;   
+   }
+}

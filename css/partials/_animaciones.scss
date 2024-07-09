@@ -1,0 +1,39 @@
+.tracking-in-contract-bck{animation:tracking-in-contract-bck 2s cubic-bezier(.215,.61,.355,1.000) 2s both}
+ @keyframes tracking-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
+
+.scale-in-center{animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94)}
+@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}
+
+.kenburns-bottom{animation:kenburns-bottom 5s ease-out both}
+@keyframes kenburns-bottom{0%{transform:scale(1) translateY(0);transform-origin:50% 84%}100%{transform:scale(1.25) translateY(15px);transform-origin:bottom}}
+
+.scale-in-center-img1{animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) both}
+.scale-in-center-img2{animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) 1s both}
+.scale-in-center-img3{animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) 1.2s both}
+.scale-in-center-img4{animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) 1.4s both}
+.scale-in-center-img5{animation:scale-in-center 1s cubic-bezier(.25,.46,.45,.94) 1.6s both}
+
+@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

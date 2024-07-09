@@ -1,0 +1,60 @@
+.main-contacto {
+      
+    display: flex;
+    margin: 1rem;        
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    
+    .formulario{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        background-image: url(../multimedia/Imagenes/Fondos/fondo\ desgastado\ negro.jpg);
+        background-size: cover;
+        border-radius: .8rem;
+        box-shadow: 0px 0px 30px 5px rgb(214, 2, 2);
+        justify-content: center;
+        padding: 2rem;
+        
+        h2 {
+            font-size: 40px;
+            text-align: center;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            margin: 2rem;
+            color: white;
+            text-shadow: 5px 5px 10px black ;
+        }
+               
+        input{
+            font-size: 1rem;
+            margin-top: 1rem;
+            width: 100%;
+            padding: 1rem;
+            background-color: rgba(240, 248, 255, 0.575);
+            border-radius: 1rem;
+            border: none
+            }
+        textarea{
+            font-size: 1rem;
+            width: 100%;
+            border: none;
+            font-family: sans-serif;
+            padding: 1rem;
+            margin-top: 20px;
+            background-color: rgba(240, 248, 255, 0.575);
+            border-radius: 1rem;
+            border: none        
+            }
+        #enviar{
+            background-color: gray;
+            border: none;
+            cursor: pointer;            
+        }
+    }
+}
+
+
+
+
