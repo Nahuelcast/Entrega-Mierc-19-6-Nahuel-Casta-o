@@ -282,18 +282,26 @@ nav {
 
 .main-tickets {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 7rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
 }
-
-#titulo-entradas h1 {
+.main-tickets h1 {
   color: white;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-
-#entradas {
-  height: 100vh;
+.main-tickets #entradas {
   align-items: center;
   justify-content: center;
+}
+.main-tickets #entradas h5 {
+  color: black;
+  font-weight: bold;
 }
 
 .main-eventos {

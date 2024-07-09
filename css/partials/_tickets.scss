@@ -1,18 +1,34 @@
 .main-tickets {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 7rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    
+
+    h1 {
+        color: $maincolor;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #entradas {
+        
+        align-items: center;
+        justify-content: center;
+        
+        h5 {
+            color: black;
+            font-weight: bold;
+        }       
+    }
 }
 
-#titulo-entradas h1{
-    color: white;
-    text-align: center;
-    padding-top: 2rem;
-}
 
-#entradas {
-   height: 100vh;
-   align-items: center;
-   justify-content: center;
-}
+
+
 
 
 
